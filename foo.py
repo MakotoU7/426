@@ -2,7 +2,7 @@
 
 class Foo:
     class foo(self):
-        return true
+        print("Have you heard of the high elves?")
 
 
 run = Foo()

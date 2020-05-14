@@ -1,6 +1,0 @@
-#edit the file > git add . > git commit -m "Message"
-#git log --author="Makoto"
-#git status
-
-#git config --global user.name "Makoto"
-#git config --list

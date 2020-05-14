@@ -1,0 +1,16 @@
+# All changes must be committed to take place
+
+git add .				# add all files to staging area
+git add file.txt			# add one file to repository
+git commit -m "Message"			# commit files to repository
+
+git log --author="Makoto"		# log commits from author
+git status				# status of a project
+
+git config --global user.name "Makoto"	# add user to repository
+git config --list			# list all configs of repository
+
+git diff				# show differences with repository
+git diff --staged			# show diff between staging and rep
+
+git rm file.txt				# remove file from directory and rep

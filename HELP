@@ -24,3 +24,6 @@ git mv file.name new_file.txt		# rename file with this command
 
 git checkout -- file.txt		# restore file from a repository
 git reset HEAD file.txt			# remove file from staging area
+
+git checkout 67527<TAB> -- file.txt	# restore file from a specific rep
+

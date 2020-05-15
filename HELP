@@ -1,8 +1,14 @@
 # All changes must be committed to take place
 
+git init 				# initialized repository
+
 git add .				# add all files to staging area
 git add file.txt			# add one file to repository
+
 git commit -m "Message"			# commit files to repository
+git commit -am "Message"		# add all files to rep, without\
+					# staging area, don't use this with\
+					# delete or move files
 
 git log --author="Makoto"		# log commits from author
 git status				# status of a project
@@ -15,3 +21,6 @@ git diff --staged			# show diff between staging and rep
 
 git rm file.txt				# remove file from directory and rep
 git mv file.name new_file.txt		# rename file with this command
+
+git checkout -- file.txt		# restore file from a repository
+git reset HEAD file.txt			# remove file from staging area

@@ -23,7 +23,11 @@ git rm file.txt				# remove file from directory and rep
 git mv file.name new_file.txt		# rename file with this command
 
 git checkout -- file.txt		# restore file from a repository
+git checkout 67527<TAB> -- file.txt     # restore file from a specific rep
 git reset HEAD file.txt			# remove file from staging area
 
-git checkout 67527<TAB> -- file.txt	# restore file from a specific rep
+# set nickname to github repo
+git remote add 426 https://github.com/MakotoU7/426.git
+git push -u 426 master			# push repo to github
+
 
